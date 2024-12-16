@@ -66,7 +66,7 @@ pytest tests/
 
 ### Запуск
 ```sh
-python run.py
+uvicorn main:app --reload
 ```
 
 ### API
